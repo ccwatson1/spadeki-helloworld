@@ -8,6 +8,9 @@ namespace HelloWorld.Controllers
 {
     public class HomeController : Controller
     {
+    
+        protected List<Student> students = new List<Student> ();
+        
         public IActionResult Index()
         {
             return View();
